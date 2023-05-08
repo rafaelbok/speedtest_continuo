@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Internet</title>
+    <style>
+        body {
+            background-image: url('https://source.unsplash.com/random/1920x1080?landscape');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .button {
+            border: none;
+            background-color: #0078D4;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            outline: none;
+        }
+
+        .button:hover {
+            background-color: #005A9E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Relatório de Internet</h1>
+        <a href="mesatual.php" class="button">Mês Atual</a>
+        <a href="mespassado.php" class="button">Mês Anterior</a>
+    </div>
+</body>
+</html>
