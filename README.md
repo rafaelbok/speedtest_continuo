@@ -4,5 +4,5 @@
 <p>Adicione um trabalho cron:<br />* * * * * /bin/bash /var/www/html/<strong>nome_da_sua_pasta</strong>/speedtest.sh</p>
 <p>Para alterar os parametros de velocidade m&iacute;nima, edite o arquivo speedtest.sh na <strong>linha 34</strong>.<br />Eu utilize o parametro de 240Mb de down e 150 para upload.&nbsp;</p>
 <p>Tudo que ficar abaixo deste valor ser&aacute; salvo no arquivo <strong>speedtest_results_low_Month.csv</strong> e todos os resultados seram salvos em <strong>speedtest_results_Month.csv,&nbsp;</strong>dentro da pr&oacute;pria pasta.</p>
-<p>Nos arquivos <strong>mesatual.php</strong> e <strong>mespassado.php</strong> dever&aacute; alterar as linhas:<br />131 - Caminho da pasta dos relatorios<br />172 e 173 - Parametros de velocidade</p>
+<p>Nos arquivos <strong>mesatual.php</strong> e <strong>mespassado.php</strong> dever&aacute; alterar as linhas:<br />131 - Caminho da pasta dos relatorios<br />150, 153, 172 e 173 - Parametros de velocidade</p>
 <p>&nbsp;</p>
